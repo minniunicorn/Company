@@ -6,24 +6,21 @@ using System.Threading.Tasks;
 
 namespace Company
 {
-    ///<summary>
-    ///контрагенты
-    ///</summary>
-
-    internal class Company
+    class Company
     {
+        //Поля класса
         ///<summary>
         ///Название компании
         ///</summary>
         public string name;
         ///<summary>
-        ///количество сотрудников
+        ///Количество сотрудников
         ///</summary>
         public int persons;
         ///<summary>
         ///Зарплатный фонд
         ///</summary>
         public int money;
-        
-    }
+    }  
+    
 }
